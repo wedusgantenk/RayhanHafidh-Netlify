@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="md:flex-auto">
+        <div class="md:shrink-0">
+    <div class="lg:flex">
+        <div class="lg:shrink-0">
+    <nav>
+        <div class="bg-teal-400 text-white py-5 px-4">
+            <div class="text-left font-serif text-3xl m-0 w-auto title"><a href="#">Rayhan Hafidh</a></div>
+            <div class="menu">
+                <ul class="font-bold flex space-x-5 m-auto py-3">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#portofolio">About Me</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div>
+        <main>
+            <section class= "flex space-x-5 font-serif bg-teal-400 text-black py-5 px-4"id="profil">
+                <img class="rounded-full border-solid"src="/src/head.JPG" alt="Rayhan" style="height:400px;">
+                <div class="column">
+                    <h1 class="text-3xl portofolio">My Portofolio</h1>
+                    <h2 class="text-2xl">About Me</h2>
+                    <p class="text-l">My name is Rayhan Hafidh, I am a 5th semester informatics engineering student at the Purwokerto Telkom Institute of Technology</p>
+                </div>
+            </section>
+            <section class="m-5 font-serif bg-teal text-black"id="experince">
+                <h2 class="text-2xl">My Experience</h2>
+                <br />
+                <div class="grid grid-rows-3 grid-flow-col gap-4">
+                    <div class="bg-teal-300 hover:bg-teal-400 g1 border-2">
+                        <h4 class="text-xl">Lorem ipsum dolor sit amet</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="bg-teal-300 hover:bg-teal-400 g1 border-2">
+                        <h4 class="text-xl">Lorem ipsum dolor sit amet</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="bg-teal-300 hover:bg-teal-400 g1 border-2">
+                        <h4 class="text-xl">Lorem ipsum dolor sit amet</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </section>
+            <section class="m-5 font-serif bg-white text-black"id="contact">
+                <h2 class="text-2xl">Contact Me</h2>
+                <br />
+                <div class="container-form">
+                <form action="/action_page.php" method="get">
+                    <label for="name">Nama:</label><br />
+                    <input class="border-black border-2 rounded-l"type="text" id="name" name="name" /><br /><br />
+                    <label for="email">Email:</label><br>
+                    <input class=" border-black border-2 rounded-l"type="text" id="email" name="email" /><br /><br />
+                    <textarea class="border-black border-2 rounded-l"name="message" rows="4" cols="60">Input your text here</textarea><br />
+                    <button class="p-3 border-black border-2 rounded-lg text-white bg-teal-300 hover:bg-teal-700 btn">Kirim</button>
+                </form>
+                </div>
+            </section>
+        </div>
+        </main>
+</body>
+<footer>
+    <div class="text-center font-sans bg-teal-400 text-black">
+        <p>Published by : Rayhan</p>
+        <p>27 September 2022</p>
+    </div>
+</footer>
+</html>
